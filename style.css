@@ -1,0 +1,56 @@
+/*Selector {
+	Property: v;
+}
+*/
+
+* {
+	text-align: right;
+}
+body{
+	background-image: url(image.png);
+	background-size: cover;
+}
+
+p {
+	color: #1AD3D3;
+	text-align: center;
+	border: 5px solid rgba(26, 211, 211,0.5);
+	cursor: pointer;
+}
+
+p {
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:180%;
+	font-family: font-family: 'Poiret One', cursive;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+li{
+	list-style: none;
+	display:  inline-block;
+}	
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0,0,255,0.1);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}
